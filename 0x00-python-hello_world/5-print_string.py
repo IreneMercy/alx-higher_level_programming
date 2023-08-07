@@ -3,8 +3,8 @@
 
 def print_string():
     str = "Holberton School"
-    print(str * 3)
-    print(str[:9])
+    print(3 * str)
+    print(str[:10])
 
 
 print_string()
