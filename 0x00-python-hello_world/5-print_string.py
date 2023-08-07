@@ -4,7 +4,7 @@
 def print_string():
     str = "Holberton School"
     print(3 * str)
-    print(str[:10])
+    print(str[0:9])
 
 
 print_string()
