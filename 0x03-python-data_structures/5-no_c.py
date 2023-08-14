@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 def no_c(my_string):
     filtered_chars = [
             character for character in my_string
@@ -6,3 +7,5 @@ def no_c(my_string):
     ]
     new_string = ''.join(filtered_chars)
     return new_string
+
+
